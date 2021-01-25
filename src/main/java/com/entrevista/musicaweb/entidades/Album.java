@@ -19,7 +19,7 @@ import javax.persistence.Transient;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
-@Table(name = "tb_album")
+@Table(name = "tb_album",schema = "entrevista")
 public class Album implements Serializable {
 
 

@@ -13,7 +13,7 @@ import javax.persistence.Table;
 import javax.persistence.Transient;
 
 @Entity
-@Table(name = "tb_artista")
+@Table(name = "tb_artista",schema = "entrevista")
 public class Artista implements Serializable{
 
 	/**
